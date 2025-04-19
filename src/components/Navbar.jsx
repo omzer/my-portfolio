@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo } from '../assets';
+import { close, menu } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -20,12 +20,9 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[120px] sm:h-[50px] w-[45px] h-[45px] object-fill"
-          />
-
+          <span className="text-eerieBlack text-[32px] font-mova font-extrabold uppercase">
+            Omar Sabri
+          </span>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
