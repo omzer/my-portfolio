@@ -38,6 +38,9 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 import flutter from './tech/flutter.png';
+import kotlin from './tech/kotlin.png';
+import elysia from './tech/elysia.svg';
+import ai from './tech/ai.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -88,6 +91,9 @@ export {
   tailwind,
   typescript,
   flutter,
+  kotlin,
+  elysia,
+  ai,
   komikult,
   leaderboard,
   math,

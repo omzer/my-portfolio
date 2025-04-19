@@ -14,6 +14,9 @@ import {
   figma,
   postgresql,
   flutter,
+  kotlin,
+  elysia,
+  ai,
   komikult,
   leaderboard,
   math,
@@ -89,8 +92,20 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: 'Elysia',
+    icon: elysia,
+  },
+  {
+    name: 'AI/ML',
+    icon: ai,
+  },
+  {
     name: 'Flutter',
     icon: flutter,
+  },
+  {
+    name: 'Kotlin',
+    icon: kotlin,
   },
   {
     name: 'postgresql',
