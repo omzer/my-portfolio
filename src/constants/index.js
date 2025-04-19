@@ -133,14 +133,14 @@ const experiences = [
   },
   {
     title: "Android Developer",
-    company_name: "RMDY Health - ASAL",
+    company_name: "RMDY Health  ASAL",
     icon: rmdy,
     iconBg: "#333333",
     date: "Jul 2019 - Feb 2021",
   },
   {
     title: "Software Verification",
-    company_name: "Nvidia - ASAL",
+    company_name: "Nvidia  ASAL",
     icon: nvidia,
     iconBg: "#333333",
     date: "Jun 2019 - Jul 2019",
