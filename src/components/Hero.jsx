@@ -31,7 +31,7 @@ const Hero = () => {
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px]
           lg:top-[150px] xl:top-[250px] ${styles.paddingX}
-          max-w-7xl mx-auto flex flex-row items-start
+          max-w-[90%] mx-auto flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
             <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
