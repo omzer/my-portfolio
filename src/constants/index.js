@@ -28,6 +28,7 @@ import {
   rmdy,
   wcn,
   vrp,
+  rmdyLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -134,7 +135,7 @@ const experiences = [
   {
     title: "Android Developer",
     company_name: "RMDY Health  ASAL",
-    icon: rmdy,
+    icon: rmdyLogo,
     iconBg: "#FFFFFF",
     date: "Jul 2019 - Feb 2021",
   },

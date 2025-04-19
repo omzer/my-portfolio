@@ -49,7 +49,7 @@ import microverse from './company/microverse.png';
 import freightos from './company/freightos.png';
 import nvidia from './company/nvidia.png';
 import psd from './company/psd.png';
-import rmdy from './company/rmdy.png';
+import rmdyLogo from './company/rmdy.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -59,6 +59,7 @@ import covid from './projects/covid.png';
 import space from './projects/space-hub.png';
 import wcn from './projects/wcn.png';
 import vrp from './projects/vrp.png';
+import rmdy from './projects/rmdy.jpg';
 
 export {
   bwmap,
@@ -115,5 +116,6 @@ export {
   freightos,
   nvidia,
   psd,
+  rmdyLogo,
   rmdy,
 };
