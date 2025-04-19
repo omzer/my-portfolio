@@ -51,7 +51,7 @@ import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import covid from './projects/covid.png';
 import space from './projects/space-hub.png';
 import wcn from './projects/wcn.png';
 import vrp from './projects/vrp.png';
@@ -101,7 +101,7 @@ export {
   leaderboard,
   math,
   movie,
-  nyeusi,
+  covid,
   space,
   coverhunt,
   dcc,

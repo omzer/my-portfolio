@@ -21,7 +21,7 @@ import {
   leaderboard,
   math,
   movie,
-  nyeusi,
+  covid,
   coverhunt,
   dcc,
   kelhel,
@@ -199,7 +199,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'RMDY',
-    description: 'A real-time medical data analysis platform for healthcare professionals.',
+    description: 'A healthcare platform that connects patients with doctors, enabling real-time health monitoring and tracking of vital measurements.',
     tags: [
       {
         name: 'react',
@@ -218,26 +218,23 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+    name: 'COVID-19 Tracker',
+    description: 'A real-time COVID-19 tracking application for monitoring cases in Palestine.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'nodejs',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongodb',
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: covid,
   },
 ];
 
