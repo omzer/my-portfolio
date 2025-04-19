@@ -35,9 +35,16 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          BASE_URL: /my-portfolio/
 
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
+
+      - name: Copy assets to root
+        run: |
+          cp -r dist/assets dist/
+          cp dist/logo.png dist/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
