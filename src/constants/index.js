@@ -9,20 +9,16 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   git,
   figma,
-  docker,
   postgresql,
-  rubyrails,
-  graphql,
+  flutter,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -89,20 +85,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Flutter',
+    icon: flutter,
   },
   {
     name: 'postgresql',
@@ -115,10 +103,6 @@ const technologies = [
   {
     name: 'figma',
     icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 

@@ -37,6 +37,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import flutter from './tech/flutter.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -86,6 +87,7 @@ export {
   redux,
   tailwind,
   typescript,
+  flutter,
   komikult,
   leaderboard,
   math,
