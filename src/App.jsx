@@ -9,9 +9,10 @@ import {
   Projects,
 } from './components';
 
-const App = () => {
+// eslint-disable-next-line react/prop-types
+const App = ({ baseUrl }) => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={baseUrl}>
       <div className="relative z-0">
         <div>
           <Navbar />
@@ -29,10 +30,10 @@ const App = () => {
         <Projects />
 
         <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
+          className="bg-experience bg-cover bg-center bg-no-repeat
             rounded-tl-[150px] rounded-br-[150px]">
           <div
-            className="bg-experienceLight bg-cover bg-center 
+            className="bg-experienceLight bg-cover bg-center
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Experience />
           </div>
