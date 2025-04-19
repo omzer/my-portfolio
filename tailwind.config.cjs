@@ -62,6 +62,10 @@ export default {
         overcameOutline: ['Overcame Outline'],
         poppins: ['Poppins', 'sans-serif'],
       },
+      filter: {
+        'grayscale': 'grayscale(100%)',
+        'grayscale-0': 'grayscale(0%)',
+      },
     },
   },
   plugins: [],
