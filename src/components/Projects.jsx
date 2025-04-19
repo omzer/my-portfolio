@@ -31,9 +31,9 @@ const ProjectCard = ({
       <img
         src={image}
         alt={name}
-        className={`absolute w-full h-full object-cover rounded-[24px] transition-all duration-300 ${
-          active === id ? 'grayscale-0' : 'grayscale'
-        }`}
+        className={`absolute w-full h-full rounded-[24px] transition-all duration-300 ${
+          active === id ? 'object-contain' : 'object-cover'
+        } ${active === id ? 'grayscale-0' : 'grayscale'}`}
       />
 
       {active !== id ? (
