@@ -41,10 +41,9 @@ jobs:
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
 
-      - name: Copy assets to root
+      - name: Copy logo to root if needed
         run: |
-          cp -r dist/assets dist/
-          cp dist/logo.png dist/
+          cp dist/logo.png dist/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
