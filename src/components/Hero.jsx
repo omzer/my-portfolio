@@ -40,20 +40,20 @@ const Hero = () => {
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase flex items-center gap-4`}>
-              Hi, I&apos;m{' '}
-              <span
-                className="sm:text-battleGray sm:text-[90px]
-                text-eerieBlack text-[50px] font-mova
-                font-extrabold uppercase flex items-center gap-4">
-                Omar Sabri
-                <img
-                  src={omar}
-                  alt="omar"
-                  className="w-32 h-32 rounded-full object-cover border-2 border-battleGray"
-                />
-              </span>
+              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              Hi, I&apos;m
             </h1>
+            <div
+              className="sm:text-battleGray sm:text-[90px]
+              text-eerieBlack text-[50px] font-mova
+              font-extrabold uppercase flex items-center gap-4 mt-2">
+              Omar Sabri
+              <img
+                src={omar}
+                alt="omar"
+                className="w-32 h-32 rounded-full object-cover border-2 border-battleGray"
+              />
+            </div>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               <b>Senior Frontend Software Engineer</b> with a passion for building scalable and
               efficient systems ({yearsOfExperience}+ years of experience). <br className="sm:block hidden" />
