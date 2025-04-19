@@ -46,6 +46,10 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import freightos from './company/freightos.png';
+import nvidia from './company/nvidia.png';
+import psd from './company/psd.png';
+import rmdy from './company/rmdy.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -55,7 +59,6 @@ import covid from './projects/covid.png';
 import space from './projects/space-hub.png';
 import wcn from './projects/wcn.png';
 import vrp from './projects/vrp.png';
-import rmdy from './projects/rmdy.jpg';
 
 export {
   bwmap,
@@ -103,11 +106,14 @@ export {
   movie,
   covid,
   space,
+  wcn,
+  vrp,
   coverhunt,
   dcc,
   kelhel,
   microverse,
-  wcn,
-  vrp,
+  freightos,
+  nvidia,
+  psd,
   rmdy,
 };

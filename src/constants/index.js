@@ -22,13 +22,12 @@ import {
   math,
   movie,
   covid,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  freightos,
+  nvidia,
+  psd,
+  rmdy,
   wcn,
   vrp,
-  rmdy,
 } from "../assets";
 
 export const navLinks = [
@@ -126,32 +125,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
-    icon: coverhunt,
+    title: "Senior R&D Engineer",
+    company_name: "Freightos",
+    icon: freightos,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Feb 2021 - Present",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
-    icon: microverse,
+    title: "Android Developer",
+    company_name: "RMDY Health - ASAL",
+    icon: rmdy,
     iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    date: "Jul 2019 - Feb 2021",
   },
   {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
+    title: "Software Verification",
+    company_name: "Nvidia - ASAL",
+    icon: nvidia,
     iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
+    date: "Jun 2019 - Jul 2019",
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
+    title: "Trainee (Volunteer)",
+    company_name: "PSD",
+    icon: psd,
     iconBg: "#333333",
-    date: "Sep 2022 - Present",
+    date: "2018",
   },
 ];
 
