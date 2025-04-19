@@ -53,6 +53,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import wcn from './projects/wcn.png';
+import vrp from './projects/vrp.png';
+import rmdy from './projects/rmdy.jpg';
 
 export {
   bwmap,
@@ -104,4 +107,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  wcn,
+  vrp,
+  rmdy,
 };
