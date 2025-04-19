@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
 import { omar, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
@@ -48,11 +46,32 @@ const Hero = () => {
               text-eerieBlack text-[50px] font-mova
               font-extrabold uppercase flex items-center gap-4 mt-2">
               Omar Sabri
-              <img
-                src={omar}
-                alt="omar"
-                className="w-32 h-32 rounded-full object-cover border-2 border-battleGray"
-              />
+              <motion.div
+                className="relative w-32 h-32 cursor-pointer"
+                whileHover={{ rotateY: 180 }}
+                transition={{ duration: 0.6 }}
+                style={{ transformStyle: "preserve-3d" }}
+              >
+                <motion.div
+                  className="absolute w-full h-full"
+                  style={{ backfaceVisibility: "hidden" }}
+                >
+                  <img
+                    src={omar}
+                    alt="omar"
+                    className="w-32 h-32 rounded-full object-cover border-2 border-battleGray"
+                  />
+                </motion.div>
+                <motion.div
+                  className="absolute w-full h-full flex items-center justify-center bg-battleGray rounded-full border-2 border-battleGray"
+                  style={{
+                    backfaceVisibility: "hidden",
+                    transform: "rotateY(180deg)",
+                  }}
+                >
+                  <span className="text-6xl">🧑‍💻</span>
+                </motion.div>
+              </motion.div>
             </div>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               <b>Senior Frontend Software Engineer</b> with a passion for building scalable and
