@@ -71,7 +71,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   const introText =
-    "👋 Hey! I'm Omar Sabri, a Software Engineer from Qalqilya, Palestine 🇵🇸. I build beautiful web apps with React ⚛️, create mobile experiences with Android 🤖 & Flutter 🎯, and design scalable backends using Node.js & Elysia 🚀. I also craft stunning UI/UX designs in Figma 🎨. Let's create something amazing together! 💡";
+    "👋 Hey! I'm Omar Sabri, a Software Engineer from Qalqilya, Palestine 🇵🇸. I build beautiful web apps with React ⚛️, create mobile experiences with Android 🤖 & Flutter 🎯, and design scalable backends using Node.js & Elysia 🚀. I also craft stunning UI/UX designs in Figma 🎨 and develop AI-powered solutions 🤖. Let's create something amazing together! 💡";
 
   return (
     <div className="-mt-[6rem]">
